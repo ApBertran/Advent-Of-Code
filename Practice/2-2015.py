@@ -3,6 +3,7 @@ textLines = textFile.readlines()
 
 count = 0
 totalSurfaceArea = 0
+totalRibbon = 0
 
 for line in textLines:
     chrctrCount = 0
@@ -29,5 +30,13 @@ for line in textLines:
     smallestSide = int(min(sides) / 2)
     surfaceArea = sides[0] + sides[1] + sides[2] + smallestSide
     totalSurfaceArea += surfaceArea
+    dimensions = list()
+    dimensions.append(l)
+    dimensions.append(w)
+    dimensions.append(h)
+    dimensions.sort()
+    ribbon = int((dimensions[0] * 2) + (dimensions[1] * 2) + (l * w * h))
+    totalRibbon += ribbon
 
 print(totalSurfaceArea)
+print(totalRibbon)
