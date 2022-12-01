@@ -1,3 +1,2 @@
-My solutions to the challenges presented in Advent of Code. Organized by year, file format is as follows:
-"<day>-<year>.<language>"
-"<day>-<year>-<text>.txt"
+<h1>Advent of Code</h1>
+My solutions to the challenges presented in Advent of Code, organized by year.
