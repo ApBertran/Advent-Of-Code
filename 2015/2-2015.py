@@ -1,4 +1,4 @@
-textFile = open('Practice/2-2015-text.txt', 'r')
+textFile = open('2015/2-2015-text.txt', 'r')
 textLines = textFile.readlines()
 
 count = 0
